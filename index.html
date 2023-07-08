@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="Personalizing Diffusion Models with Iterative Feedback">
+  <meta name="keywords" content="FABRIC, Diffusion Models, Iterative Feedback">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FABRIC 🎨 </title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+  
+
+<br />
+
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">FABRIC 🎨<br />
+            <p class="title is-3 publication-title">Personalizing Diffusion Models with Iterative Feedback </p>
+          </h1>          
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="#">Dimitri Von Rütte</a>,</span>
+            <span class="author-block">
+              <a href="https://elisabettafedele.github.io/">Elisabetta Fedele</a>,
+            </span>
+            <!-- <br /> -->
+            <span class="author-block">
+              <a href="#">Jonathan Thomm</a>,
+            </span>
+            <span class="author-block">
+              <a href="https://lu-wo.github.io/">Lukas Wolf</a>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block" style="margin-right: 1em;">ETH Zürich, Switzerland</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark"
+                   style="background-color:#5c5c5c">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="#"
+                   class="external-link button is-normal is-rounded is-dark"
+                   style="background-color:#5c5c5c">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/sd-fabric/fabric"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+    
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/FABRIC.drawio.jpeg" class="center"/>
+      <br><br>
+      <h2 class="subtitle has-text-centered">
+      <strong>FABRIC</strong> is training-free approach that conditions the diffusion process on a set of feedback images, applicable to a wide range of popular diffusion models.
+    </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            In this study, we investigate the integration of iterative human feedback into diffusion-based text-to-image models to enhance user experience and output quality. We introduce FABRIC (Feedback via Attention-Based Reference Image Condi- tioning), a training-free approach that conditions the diffusion process on a set of feedback images, applicable to a wide range of popular diffusion models. We propose a comprehensive evaluation methodology for a rigorous assessment of our approach and demonstrate that generation results improve over multiple rounds of iterative feedback, optimizing user preferences. This work has potential ap- plications in personalized content creation and customization, contributing to the advancement of text-to-image generation research.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Paper video. -->
+    <!-- <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Explanatory Video</h2>
+        <video controls poster="static/images/explanatory_video_poster.jpeg">
+          <source src="static/videos/poster_session.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div> -->
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Qualitative results</h2>
+    
+      <br>
+        <div class="content has-text-justified">
+          <p>
+            Coming soon.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  <!-- <div class="container is-max-desktop">
+
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+          <h2 class="title is-4">Subtitle</h2>
+      </div>
+    </div>
+
+    <div class="columns is-centered">
+
+      <div class="column">
+        <div class="content">
+          
+          <img src="static/images/image1.jpeg"
+            class="interpolation-image">
+            <center>
+            <p>
+              <i >caption image 1</i>
+            </p>
+          </center>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="content">
+          
+          <img src="static/images/image2.jpeg"
+            class="interpolation-image">
+            <center>
+            <p>
+              <i >caption image 2</i>
+            </p>
+          </center>
+        </div>
+      </div>
+  </div> -->
+    
+</section>
+
+
+
+
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            It borrows the source code of <a href="https://github.com/nerfies/nerfies.github.io">this website</a>.
+            We would like to thank Utkarsh Sinha and Keunhong Park.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
